@@ -1,0 +1,11 @@
+@mixin o-container {
+  width: 100%;
+  max-width: $s-content-max-width;
+  padding-left: $f-space--sides;
+  padding-right: $f-space--sides;
+  margin: 0 auto;
+}
+
+.o-container {
+  @include o-container();
+}

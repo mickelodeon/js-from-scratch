@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Liberator SIROKO';
+    src: url('LiberatorSIROKO-Light.eot');
+    src: url('LiberatorSIROKO-Light.eot?#iefix') format('embedded-opentype'),
+        url('LiberatorSIROKO-Light.woff2') format('woff2'),
+        url('LiberatorSIROKO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberator SIROKO';
+    src: url('LiberatorSIROKO-Heavy.eot');
+    src: url('LiberatorSIROKO-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('LiberatorSIROKO-Heavy.woff2') format('woff2'),
+        url('LiberatorSIROKO-Heavy.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberator SIROKO';
+    src: url('LiberatorSIROKO-Outline.eot');
+    src: url('LiberatorSIROKO-Outline.eot?#iefix') format('embedded-opentype'),
+        url('LiberatorSIROKO-Outline.woff2') format('woff2'),
+        url('LiberatorSIROKO-Outline.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberator SIROKO 4';
+    src: url('LiberatorSIROKO-Medium.eot');
+    src: url('LiberatorSIROKO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('LiberatorSIROKO-Medium.woff2') format('woff2'),
+        url('LiberatorSIROKO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberator SIROKO 2';
+    src: url('LiberatorSIROKO-Thin.eot');
+    src: url('LiberatorSIROKO-Thin.eot?#iefix') format('embedded-opentype'),
+        url('LiberatorSIROKO-Thin.woff2') format('woff2'),
+        url('LiberatorSIROKO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

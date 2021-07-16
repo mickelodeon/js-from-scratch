@@ -1,0 +1,138 @@
+.c-form {
+  padding: 16px;
+
+  @include mq($from: $f-breakpoint--desktop) {
+    margin-bottom: 20%;
+    padding: 0;
+  }
+}
+
+.c-form__container {
+  padding: 2em;
+  background-color: map-get($f-colors-general, purple--dark);
+  border-radius: 3px;
+}
+
+.c-form__title {
+  margin: 0;
+  font-family: Inter-Regular;
+  font-size: 12px;
+  font-weight: 700;
+  color: map-get($f-colors-general, yellow);
+  text-transform: uppercase;
+}
+
+.c-form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: map-get($f-colors-general, green--light);
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: none;
+    border: 1px solid map-get($f-colors-general, green--light);
+
+    .c-form__button--icon {
+      transform: translateX(1em);
+    }
+  }
+}
+
+.c-form__button--text {
+  margin-right: 1em;
+  font-family: Inter-Regular;
+  font-size: 15px;
+  font-weight: 700;
+  color: map-get($f-colors-general, white);
+}
+
+.c-form__button--icon {
+  transition: all 0.2s ease-in-out;
+}
+
+.c-form__list {
+  margin: 1em 0;
+}
+
+.c-form__list--option {
+  display: block;
+  position: relative;
+  margin: 1em 0;
+  font-family: Inconsolata-Regular;
+  font-size: 15px;
+  color: map-get($f-colors-general, white);
+  background-color: map-get($f-colors-general, purple--light);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: map-get($f-colors-general, red--soft);
+  }
+
+  &.checked {
+    background-color: map-get($f-colors-general, red--soft);
+
+    label::before {
+      background-color: map-get($f-colors-general, white);
+      border: 3px solid map-get($f-colors-general, red--soft);
+    }
+  }
+
+  input[type='radio'] {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    line-height: 20px;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 1em;
+      box-shadow: 0 0 0 2px #ffffff;
+      border-radius: 50%;
+    }
+  }
+}
+
+.c-form__code {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, map-get($f-colors-general, grey), map-get($f-colors-general, white));
+}
+
+.c-form__code--text {
+  max-width: 150px;
+  font-family: Inconsolata-Regular;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.c-form__code--button {
+  font-family: Inconsolata-Regular;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid map-get($f-colors-general, black);
+  cursor: pointer;
+}
+
+.c-form__instructions {
+  font-family: Inconsolata-Regular;
+  font-size: 16px;
+  color: map-get($f-colors-general, white);
+}

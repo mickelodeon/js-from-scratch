@@ -1,0 +1,20 @@
+.c-countdown {
+  display: flex;
+
+  &.finished {
+    background-color: map-get($f-colors-general, red--hard);
+    cursor: pointer;
+  }
+}
+
+.c-countdown__text {
+  margin-left: 0.5em;
+  font-family: Inconsolata-Regular;
+  font-size: 27px;
+  font-weight: 700;
+  color: map-get($f-colors-general, white);
+
+  .c-countdown.finished & {
+    font-size: 16px;
+  }
+}

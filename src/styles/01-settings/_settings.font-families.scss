@@ -1,0 +1,13 @@
+// Fallback families
+$f-font-family__fallback: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !default;
+
+// Main font families
+$f-font-family__primary: 'Roboto', $f-font-family__fallback !default;
+$f-font-family__secondary: 'Gotham', $f-font-family__fallback !default;
+
+// Font families map
+$f-font-families: (
+  primary: $f-font-family__primary,
+  secondary: $f-font-family__secondary,
+) !default;

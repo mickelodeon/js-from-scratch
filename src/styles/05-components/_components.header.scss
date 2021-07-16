@@ -1,0 +1,36 @@
+.c-header__container {
+  margin-top: 2em;
+}
+
+.c-header__logo {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.c-header__step {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: map-get($f-colors-general, green--light);
+  color: map-get($f-colors-general, green--dark);
+  font-family: Inter-Regular;
+  font-size: 9px;
+  font-weight: 700;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.c-header__title {
+  display: block;
+  margin: 0.2em 0;
+  color: map-get($f-colors-general, white);
+  font-family: LiberatorSIROKO-Heavy;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.c-header__description {
+  display: block;
+  color: map-get($f-colors-general, white);
+  font-family: Inconsolata-Regular;
+  font-size: 16px;
+}

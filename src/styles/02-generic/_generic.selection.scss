@@ -1,0 +1,13 @@
+::selection {
+  background: map-get($f-colors-general, green--light);
+}
+
+::-moz-selection {
+  background: map-get($f-colors-general, green--light);
+}
+
+* {
+  $highlight-color: map-get($f-colors-general, green--light);
+
+  -webkit-tap-highlight-color: rgba($highlight-color, 0.2);
+}

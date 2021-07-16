@@ -1,0 +1,19 @@
+.c-footer {
+  margin-top: 30%;
+  padding: 1em 0;
+  background-color: map-get($f-colors-general, black);
+  color: map-get($f-colors-general, grey);
+  font-family: Inconsolata-Regular;
+
+  @include mq($from: $f-breakpoint--desktop) {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.c-footer__anchor {
+  color: map-get($f-colors-general, white);
+  font-weight: 700;
+}

@@ -1,0 +1,41 @@
+{
+  "steps": {
+    "first": {
+      "step_name": "Paso 1 de 2",
+      "step_title": "¡Vamos allá!",
+      "step_description": "Has llegado hasta el test de Siroko. Responde las siguientes preguntas y genera tu código premiado a medida.",
+      "form_title": "Uso Siroko desde...",
+      "form_options": {
+        "option_1": "2016",
+        "option_2": "2017",
+        "option_3": "2018",
+        "option_4": "2019",
+        "option_5": "2020",
+        "option_6": "2021"
+      },
+      "form_button": "Siguiente"
+    },
+    "second": {
+      "step_name": "Paso 2 de 2",
+      "step_title": "Vamos, una más",
+      "step_description": "",
+      "form_title": "Por unas gafas Siroko, yo...",
+      "form_options": {
+        "option_1": "Segaría a navaja",
+        "option_2": "Rechazaría un cachopo",
+        "option_3": "Renunciaría a mis tierras",
+        "option_4": "Regalaría una ternera"
+      },
+      "form_button": "Siguiente"
+    },
+    "third": {
+      "step_name": "Tu premio está listo",
+      "step_title": "¡Enhorabuena!",
+      "step_description": "",
+      "form_title": "Lo prometido es deuda",
+      "form_instructions": "Introduce este código en tu próxima compra para conseguir tu premio. ¡Disponible durante 20 minutos!",
+      "form_button": "Ir a siroko.com",
+      "form_restart": "Código caducado. <span style='text-decoration:underline;'>Reiniciar</span>."
+    }
+  }
+}

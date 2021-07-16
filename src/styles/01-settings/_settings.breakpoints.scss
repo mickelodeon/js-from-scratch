@@ -1,0 +1,14 @@
+// Main breakpoints
+$f-breakpoint--mobile: 320px;
+$f-breakpoint--tablet: 768px;
+$f-breakpoint--desktop: 980px;
+
+// Breakpoints map
+$f-breakpoints: (
+  mobile: $f-breakpoint--mobile,
+  tablet: $f-breakpoint--tablet,
+  desktop: $f-breakpoint--desktop,
+) !default;
+
+// Breakpoints needed for MQ-Sass library
+$mq-breakpoints: $f-breakpoints;
