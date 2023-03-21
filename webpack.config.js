@@ -74,6 +74,6 @@ const webpackInitConfig = {
         use: 'file-loader?name=fonts/[name].[ext]'
       },
     ]
-  },
+  }
 };
 module.exports = webpackInitConfig;
